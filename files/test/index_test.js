@@ -15,7 +15,17 @@ describe('Rooster', () => {
             assert.equal(actual, expected);
         });
     });
+    describe('.timeAtDawn', () => {
+        it('returns its argument as a string', () => {
+            // Setup
+            const inputNumber = 12;
+            const expected = '12'
+
+            // Exercise
+            const actual = Rooster.timeAtDawn(inputNumber);
+
+            // Verify
+            assert.equal(actual, expected);
+        })
+    });
 });
-
-
-
