@@ -28,4 +28,4 @@ Contributions to this project are welcome. If you encounter any issues or have s
 
 ## License
 
-This project is licensed under the [MIT License](notion://www.notion.so/LICENSE).
+This project has no license, due to the fact that is an exercise from www.codecademy.com/
