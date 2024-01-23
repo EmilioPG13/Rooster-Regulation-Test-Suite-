@@ -27,5 +27,16 @@ describe('Rooster', () => {
             // Verify
             assert.equal(actual, expected);
         })
+        it('throws an error if passed a number less than 0', () => {
+            // Setup
+            const inputNumber = -1;
+            const expected = RangeError;
+
+
+            // Verify
+            assert.throws(() => {
+                Rooster.timeAtDawn(inputNumber); // Exercise
+            }, expected);
+        })
     });
 });
